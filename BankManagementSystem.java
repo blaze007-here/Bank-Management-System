@@ -14,11 +14,10 @@ public class BankManagementSystem{
         System.out.println("---------------PRESS 1 TO VIEW THE AMOUNT--------------- \n---------------PRESS 2 TO EXIT THE SYSTEM---------------");
         int choice = sc.nextInt();
         if(choice == 1){
+            System.out.println("-------------------------------------");
             System.out.println("YOUR CURRENT BALANCE IS: "+amount);
+            System.out.println("-------------------------- -----------");
             System.out.println("PRESS 1 TO ADD THE AMOUNT \n PRESS 2 TO SUBTRACT THE AMOUNT");
-            System.out.println("-------------------------------------");
-            System.out.println("YOUR CURRENT BALANCE IS: "+amount);
-            System.out.println("-------------------------------------");
             int option = sc.nextInt();
             switch(option){
                 case 1:
