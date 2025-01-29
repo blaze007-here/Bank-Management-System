@@ -32,7 +32,7 @@ public class BankManagementSystem{
                 if (subAmount > amount) {
                     System.out.println("INSUFFICIENT BALANCE! TRANSACTION FAILED.");
                 } else {
-                    amount -= subAmount;  // Corrected subtraction logic
+                    amount -= subAmount;  
                     System.out.println("YOUR UPDATED BALANCE IS: " + amount);
                 }
                 break;
